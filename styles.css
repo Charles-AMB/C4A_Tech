@@ -500,7 +500,6 @@ a:hover {
 
 /* ==========================================================
    PARALLAX BACKGROUNDS (photo stays still while page scrolls)
-   Add class "parallax" to any section, plus one "bg-..." class below.
    ========================================================== */
 
 .parallax {
@@ -524,12 +523,13 @@ a:hover {
   position: relative;                 /* keeps text above the dark layer */
 }
 
-/* ----- PUT YOUR PHOTOS HERE (change the file names) ----- */
+
 .bg-products-hero  { background-image: url("images/Pc.jpg"); }
 .bg-products-secure { background-image: url("images/productsecure.jpg"); }
 .bg-products-cta   { background-image: url("images/productcta.jpg"); }
 .bg-services-hero  { background-image: url("images/services.jpg"); }
 .bg-services-cta   { background-image: url("images/servicecta.jpg"); }
+.bg-home-hero      { background-image: url("images/logotext.jpg"); }
 
 
 /* big banner at the top of Products / Services */
@@ -561,7 +561,7 @@ a:hover {
   padding: 110px 0;
 }
 
-/* phones/tablets can't do fixed backgrounds, so use a normal one there */
+
 @media (hover: none) {
   .parallax {
     background-attachment: scroll;
